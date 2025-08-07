@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# Riddler Terminal 🦇
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An immersive Batman-themed riddle game built with React, featuring the iconic Riddler's menacing terminal interface from Gotham City.
 
-## Available Scripts
+## 🎮 Game Overview
 
-In the project directory, you can run:
+Step into the dark world of Gotham as you face the Riddler's twisted challenges. Answer his cryptic riddles correctly or watch Gotham burn with each wrong answer. Only the world's greatest detective can solve all puzzles and uncover the ultimate truth.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Immersive Terminal Experience**: Authentic green-on-black terminal interface with typing animations
+- **Dynamic Riddle Selection**: 3 randomly selected riddles from a pool of 15 Batman-themed puzzles
+- **Menacing Consequences**: Wrong answers trigger threatening responses about Gotham's fate
+- **Progressive Difficulty**: Each correct answer unlocks the next challenge
+- **Dramatic Revelation**: Complete all riddles to discover your true identity
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 How to Play
 
-### `npm test`
+1. **Start the Game**: Type `Y` or `YES` when prompted to begin
+2. **Solve Riddles**: Read each riddle carefully and type your answer
+3. **Face Consequences**: Wrong answers result in dark threats about Gotham's citizens
+4. **Reach the Truth**: Complete all 3 riddles to unlock the final revelation
+5. **Follow the Signal**: Discover the hidden Instagram link at the end
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧩 Sample Riddles
 
-### `npm run build`
+- *"I AM FIRST A FRAUD OR A TRICK. OR PERHAPS A BLEND OF THE TWO..."*
+- *"WHAT'S BLACK AND BLUE AND DEAD ALL OVER?"*
+- *"WHEN THE CHIPS ARE DOWN, THESE CIVILIZED PEOPLE WILL EAT EACH OTHER..."*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technical Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React 18+** with Hooks (useState, useEffect, useRef)
+- **Tailwind CSS** for styling and animations
+- **Responsive Design** with mobile-first approach
+- **No External Dependencies** beyond React and Tailwind
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Installation & Setup
 
-### `npm run eject`
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/riddler-terminal.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Navigate to project directory
+cd riddler-terminal
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start development server
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Build for production
+npm run build
+```
 
-## Learn More
+## 📁 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+riddler-terminal/
+├── src/
+│   ├── components/
+│   │   └── RiddlerTerminal.js
+│   ├── App.js
+│   └── index.js
+├── public/
+├── package.json
+└── README.md
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Design Features
 
-### Code Splitting
+- **Matrix-Style Terminal**: Green text on black background with cursor animations
+- **Typing Delays**: Realistic terminal response timing
+- **Auto-Scroll**: Smooth scrolling to keep latest content visible
+- **Input Focus Management**: Seamless typing experience
+- **Footer Links**: Authentic DC/Warner Bros legal footer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎭 Character Responses
 
-### Analyzing the Bundle Size
+### Correct Answers
+- *"VERY GOOD. HERE'S THE NEXT ONE."*
+- *"THE BAT IS BROKEN. EXCELLENT."*
+- *"CHAOS IS THE NATURAL ORDER."*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Wrong Answers
+- *"PATHETIC. GOTHAM'S CHILDREN COULD DO BETTER THAN YOU."*
+- *"WRONG! ANOTHER INNOCENT LIFE LOST IN GOTHAM."*
+- *"FAIL AGAIN AND GOTHAM DIES. CHOOSE WISELY."*
 
-### Making a Progressive Web App
+## 🌐 Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Experience the Riddler's challenge: [Play Now](#)
 
-### Advanced Configuration
+## 📱 Mobile Compatibility
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Fully optimized for mobile devices with:
+- Touch-friendly interface
+- Responsive text sizing
+- Proper viewport scaling
+- Mobile keyboard support
 
-### Deployment
+## 🔒 Privacy & Legal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- No user data collection
+- No cookies or tracking
+- All game state stored locally in browser session
+- DC Comics/Warner Bros themed content used for educational purposes
 
-### `npm run build` fails to minify
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🦸‍♂️ Credits
+
+- Inspired by The Batman (2022) and DC Comics universe
+- Riddles crafted in the style of Edward Nashton/The Riddler
+- Terminal aesthetic inspired by classic hacker interfaces
+- © 2021 WBEI TM & © DC Comics
+
+## 📞 Contact
+
+Follow the signal: [@atherva_innit](https://www.instagram.com/atherva_innit/)
+
+---
+
+*"I am vengeance. I am the night. I am Batman."*
+
+**⚠️ Warning**: This game contains dark themes and references to violence consistent with Batman universe content.
