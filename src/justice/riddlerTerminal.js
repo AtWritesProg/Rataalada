@@ -64,7 +64,7 @@ const RiddlerTerminal = () => {
     },
     {
       question: "IF YOU ARE JUSTICE PLEASE DO NOT LIE, WHAT IS THE PRICE FOR YOUR BLIND EYE?",
-      answer: "corruption",
+      answer: "BRIBE",
       correctResponse: "GOTHAM'S FINEST CURRENCY."
     },
     {
